@@ -1,0 +1,5 @@
+<div *ngFor="let post of posts; index as i" [@fadeInOut]>
+  <h2>{{post.title}}</h2>
+  <p>{{post.comment}}</p>
+  <i( click)="fadeOut()" (click)="removePost(i)" class="far fa-times-circle"></i>
+</div>

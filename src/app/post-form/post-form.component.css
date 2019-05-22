@@ -1,0 +1,19 @@
+.submitPost{
+    width:174%;
+    background-color:#B1DDEA;
+    border-radius:5px;
+    height:283%; 
+    display:flex;
+    
+    align-content: center;
+}
+form{
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    align-content: center;
+}
+button{
+    font-family:'Dosis', sans-serif;
+}

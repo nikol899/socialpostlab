@@ -1,0 +1,11 @@
+<main>
+    <h1>My Thoughts</h1>
+    <button (click)="toggleForm()">New Thought</button>
+        <section class="mainPost">
+        <post [posts]="posts" 
+        (onRemovePost)="removePost($event)"></post>
+    </section>
+  
+        <post-form (onSubmit)="submitted($event)" *ngIf="show"></post-form>
+   
+</main>
